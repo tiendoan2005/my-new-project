@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến, kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<script>//Tính điểm tổng và trung bình.
+    //Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này.
+    let a= parseFloat(prompt("Nhập điểm Vật Lý: "));
+    let b= parseFloat(prompt("Nhập điểm Hóa Học: "));
+    let c= parseFloat(prompt("Nhập điểm Sinh học: "));
+    let Sum=a+b+c;
+    let Dtb=Sum/3;
+    document.write("Điểm tổng các điểm = " +Sum);
+    document.write("<br/>");
+   document.write("Điểm trung bình = " +Dtb);
+</script>
+<script>//Chuyển độ C sang độ F.
+  let C=parseInt(prompt("Nhập độ C vào đây: "));
+  let F=(9*C+160)/5;
+  document.write("<br/>");
+  document.write("Độ F là: " +F);
+</script>
+<script>//Viết chương trình tính diện tích và chu vi hình tròn.
+    let r=parseFloat(prompt("Nhập vào bán kính đường tròn:  "));
+    let S=r*r*3.14;
+    let V=r*2*3.14;
+    document.write("<br/>");
+    document.write("Diện tích hình tròn =" +S);
+    document.write("<br/>");
+    document.write("Chu vi hình tròn =" +V);
+</script>
+</body>
+</html>
